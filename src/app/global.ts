@@ -1,0 +1,17 @@
+export const maxIngredientsOf: any[] = [
+    'theCocktail.strIngredient1',
+    'theCocktail.strIngredient2',
+    'theCocktail.strIngredient3',
+    'theCocktail.strIngredient4',
+    'theCocktail.strIngredient5',
+    'theCocktail.strIngredient6',
+    'theCocktail.strIngredient7',
+    'theCocktail.strIngredient8',
+    'theCocktail.strIngredient9',
+    'theCocktail.strIngredient10',
+    'theCocktail.strIngredient11',
+    'theCocktail.strIngredient12',
+    'theCocktail.strIngredient13',
+    'theCocktail.strIngredient14',
+    'theCocktail.strIngredient15',
+];

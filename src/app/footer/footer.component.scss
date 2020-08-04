@@ -1,0 +1,34 @@
+.wrapper {
+  color: #fff;
+  margin-right: 35px;
+  margin-left: 35px;
+  border-top: 1px solid;
+
+  .inside {
+    display: flex;
+
+    section {
+      flex: auto;
+      display: flex;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+
+    .logos {
+      display: flex;
+
+      a {
+        margin: 10px;
+
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<div>
+
+  <div id="search">
+    <input class="form-control" id="searchBox" (keyup)="searching()" type="text" placeholder="Search">
+  </div>
+
+  <div id="letter-main"></div>
+
+</div>
+
+<section>
+
+  <ng-template [ngIf]="cocktails">
+    <app-cocktail *ngFor="let cocktail of cocktails" [cocktail]="cocktail">
+    </app-cocktail>
+  </ng-template>
+
+</section>

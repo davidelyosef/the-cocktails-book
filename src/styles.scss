@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html, body {
+    // background-color: #000;
+}
+
+.modal-content {
+  text-align: center;
+
+  .modal-header {
+    h4 {
+      text-align: center;
+    }
+
+    button {
+      margin-left: 0px;
+    }
+  }
+
+  .modal-body {
+    div {
+      text-align: center;
+
+      img {
+        max-width: 75%;
+      }
+    }
+  }
+}

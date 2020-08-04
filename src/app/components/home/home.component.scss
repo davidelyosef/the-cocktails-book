@@ -1,0 +1,27 @@
+div {
+  text-align: center;
+  margin-top: 22px;
+
+  #search {
+    width: 50%;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #letter-main li {
+
+    border: 0;
+  }
+}
+
+section {
+  text-align: center;
+}
+
+.letters {
+  margin: 5px;
+  list-style: none;
+  display: inline-block;
+}
